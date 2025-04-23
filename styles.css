@@ -34,7 +34,7 @@ button{
 }
 
 .container{
-    max-width: 25rem;  
+    max-width: 100%;  
     text-align: center;  
 }
 
@@ -44,7 +44,8 @@ button{
 
 .question{
     background-color: white;
-    padding: 1rem;
+    padding: .5rem;
+    max-width: 100%;
     margin-bottom: 2rem;
     border-radius: .5rem;
     box-shadow: 2px 2px 20px 0 var(--black);
@@ -58,7 +59,7 @@ button{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: solid 2px var(--black);
+    font-weight: bold;
 }
 
 .question-btn{
@@ -69,6 +70,15 @@ button{
 
 .minus-icon{
     display: none;
+}
+
+.question-text{
+    font-size: small;
+    width: 20rem;
+    max-width: 100%;
+    /* display: none; */
+    border-top: solid 2px var(--black);
+    word-wrap: break-word;
 }
 
 
